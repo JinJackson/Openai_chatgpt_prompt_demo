@@ -15,6 +15,7 @@ def logout(message):
         role = user[m['role']]
         content = m['content']
         print(role + "  -->  " + content)
+        print("-------------------------SEP------------------------")
 
 
 
